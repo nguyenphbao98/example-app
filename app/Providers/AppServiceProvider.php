@@ -26,15 +26,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // if (env('APP_ENV') === 'local') {
-        //     DB::connection();
-        //     DB::enableQueryLog();
-        //     Event::listen(\Illuminate\Foundation\Http\Events\RequestHandled::class, function ($event) {
-        //         if ($event->request->has('sql-debug')) { 
-        //             $queries = DB::getQueryLog();
-        //             dd($queries);
-        //         }
-        //     });
-        // }
+        //
     }
 }
