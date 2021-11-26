@@ -14,8 +14,8 @@ class CompanyController extends Controller
      */
     public function index()
     {
-        // $companies = Company::all();
-        $companies = Company::with('users.posts')->get();
+        $companies = Company::all();
+        // $companies = Company::with('users.posts')->get();
 
         // if(true){
         //     $companies->load(['users' => function ($query) {
